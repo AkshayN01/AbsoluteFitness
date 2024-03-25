@@ -1,6 +1,5 @@
-$(document).ready(() => {
-    displayEquipmentList();
-})
+const equipmentJSONFilePath = './data/equipment.json';
+const sessionStorageCartName = 'cart-items';
 
 const readJsonFile = (filename) => {
     return new Promise((response) => {
@@ -27,63 +26,78 @@ const readJsonFile = (filename) => {
     });
 }
 
-const getData = async (url) => {
-    data = await readJsonFile(url);
-
+const getData = async () => {
+    data = await readJsonFile(equipmentJSONFilePath);
     return data;
 }
 
-const displayEquipmentList = () => {
-    // var equipmentList = [];
-    data  = getData('./data/equipment.json');
-    data.then((res) => {
-        res.forEach(equipment => {
-            var equipmentCard = document.createElement('div');
-            equipmentCard.className = 'card';
-            
-            // card top
-            var cardImage = document.createElement('div');
-            cardImage.style.backgroundImage = "url(" + equipment.images.displayImageUrl + ")";
-            cardImage.className = 'card-top';
-            
-            var discountImage = document.createElement('span');
-            discountImage.className = 'discount';
-            var discount = document.createTextNode(equipment.discountPercentage + '%');
-
-            discountImage.appendChild(discount);
-            cardImage.appendChild(discountImage);
-
-            // card body
-            var cardBody = document.createElement('div');
-            cardBody.className = 'container';
-
-            var producName = document.createElement('h4');
-            var productNameText = document.createTextNode(equipment.name);
-            producName.appendChild(productNameText);
-
-            var productPriceInfo = document.createElement('p');
-            var originalPriceText = document.createTextNode('\u20AC' + equipment.amount);
-            if(equipment.discountPercentage >= 0){
-                var originalPrice = document.createElement('span');
-                originalPrice.className = 'discounted-price';
-                originalPrice.appendChild(originalPriceText);
-
-                productPriceInfo.appendChild(originalPrice);
-
-                var discountedPriceText = document.createTextNode('\u20AC' + equipment.discountAmount);
-                productPriceInfo.appendChild(discountedPriceText);
+const filterEquipment = (searchKeyword, data) => {
+    const filterKeys = ['name', 'productType', 'subCategory', 'brandName'];
+    var filteredData = data.filter(item => {
+        var isValid = false;
+        filterKeys.every(key => {
+            if(item[key].toLowerCase().includes(searchKeyword)){
+                isValid = true;
+                return false;
             }
-            else
-                productPriceInfo.appendChild(originalPriceText);
-
-            cardBody.appendChild(producName);
-            cardBody.appendChild(productPriceInfo);
-
-            equipmentCard.appendChild(cardImage);
-            equipmentCard.appendChild(cardBody);
-        
-            document.getElementById('equipementList').appendChild(equipmentCard);
+            return true; //every func will stop if not returned true
         });
-
+        return isValid;
     });
+
+    return filteredData;
+}
+
+
+
+const displayEmptyContent = (primaryMsg, secondaryMsg) => {
+    var outerDiv = document.createElement('div');
+    outerDiv.className = 'noResults';
+
+    var title = document.createElement('h2');
+    var titleText = document.createTextNode(primaryMsg);
+    title.appendChild(titleText);
+
+    var message = document.createElement('p');
+    var messageText = document.createTextNode(secondaryMsg);
+    message.appendChild(messageText);
+
+    outerDiv.appendChild(title);
+    outerDiv.appendChild(message);
+
+    document.getElementById('root').appendChild(outerDiv);
+}
+
+
+
+const setSessionStorage = (item) => {
+    var cartItems = [];
+    var cartItemsData = sessionStorage.getItem(sessionStorageCartName);
+    if(cartItemsData != undefined && cartItemsData != null && cartItems != '[]'){
+        cartItems = JSON.parse(cartItemsData);
+        var objIndex = cartItems.findIndex(obj => obj.id == item.id);
+        if(objIndex >= 0){
+            if(item.quantity == 0){
+                cartItems.splice(objIndex,1);
+            }
+            else{
+                cartItems[objIndex].quantity = item.quantity;
+            }
+        }
+        else{
+            cartItems.push(item);
+        }
+    }
+    else{
+        cartItems.push(item);
+    }
+    sessionStorage.setItem(sessionStorageCartName, JSON.stringify(cartItems));
+}
+
+function openNav() {
+    document.getElementById("sidenav").style.width = "250px";
+}
+  
+function closeNav() {
+    document.getElementById("sidenav").style.width = "0";
 }

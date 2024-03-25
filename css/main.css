@@ -10,162 +10,36 @@
 body{
     margin: 0px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
-.header{
-    background-color: var(--primary-color);
-    border-bottom: solid var(--secondary-color);  
-    justify-content: space-between; 
-    align-items: center;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    z-index: 1;
-    overflow: hidden;
-    margin-bottom: 1em;
-}
-
-.header .primary{
-    width: 100%;
-}
-
-.wrapper > *{
-    display: inline-block;
+.footer{
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
     text-align: center;
-    vertical-align: middle;
-}
-
-.header .primary .wrapper .logo{
-    background: url("../images/logo-transparent.png");
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-    height: 12vh;
-    width: 6vw;
-}
-
-.header .primary .searchbar input[type=text]{
-    padding: 10px;
-    font-size: 17px;
-    border: 1px solid grey;
-    float: left;
-    width: 80%;
-    background: #f1f1f1;
-    border-radius: 0.5em 0 0 0.5em;
-}   
-
-.header .primary .searchbar button{
-    float: left;
-    width: 20%;
-    padding: 10px;
-    background: var(--secondary-color);
-    color: white;
-    font-size: 17px;
-    border: 1px solid grey;
-    border-left: none;
-    cursor: pointer;
-    border-radius: 0 0.5em 0.5em 0;
-}
-
-@media screen and (min-width: 480px) {
-    .header .primary .wrapper .brandName{
-        width: 14%;
-        font-size: 1.1em;
-    }
-    
-    .header .primary .wrapper .searchbar{
-        width: 60%;
-    }
-    
-    .header .primary .wrapper .login{
-        width: 8%;
-    }
-    
-    .header .primary .wrapper .cart{
-        width: 7%;
-    }
-}
-
-@media screen and (max-width:480px) {
-    
-    .brandName { grid-area: brandName; }
-    .logo { grid-area: logo; }
-    .searchbar { grid-area: searchbar; }
-    .login { grid-area: login; }
-    .cart { grid-area: cart; }
-
-    .header .primary .wrapper {
-        display: grid;
-        grid-template-areas:
-            'logo brandName brandName brandName login cart'
-            'logo searchbar searchbar searchbar searchbar searchbar';
-        gap: 10px;
-        padding: 10px;
-    }
-
-    .header .primary .wrapper .logo{
-        height: 9vh;
-        width: 16vw;
-    }
-}
-.content{
-    margin-top: 12vh;
-}
-.contentWrapper {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-}
-
-.card {
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); /* Add shadows to create the "card" effect */
-    transition: 0.3s;
-    margin:1em
-}
-  
-.container {
-    padding: 2px 16px; /* Add some padding inside the card container */
-}
-
-.card-top{
-    /* background: url("https://www.fitnessequipmentireland.ie/wp-content/uploads/2022/07/BOLT-STRENGTH-PRO-SERIES-LAT-PULLDOWN-MID-ROW-247x296.jpg"); */
-    background-size: contain;
-    background-repeat: no-repeat;
-    height: 31vh;
-    width: 100%;
-}
-
-.discount{
     position: relative;
-    float: right;
-    top: 4%;
-    right: 4%;
-	background: orange;
-	color: white;
-	height: 2.5rem;
-	width: 2.5rem;
-	text-align: center;
-	vertical-align: middle;
-	line-height: 2.5rem;
-	transform: rotate(-20deg);
-    &:before,
-	&:after {
-		content:"";
-		position: absolute;
-		background: inherit;
-		height: inherit;
-		width: inherit;
-		top: 0;
-		left: 0;
-		z-index: -1;
-		transform: rotate(30deg);
-	}
-	&:after {
-		transform: rotate(60deg);
-	}
+    bottom: 0;
+    width: 100%;
+    margin-top: 1em;
+}
+.footer a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
 }
 
-.discounted-price{
-    text-decoration: line-through;
-    color: dimgray;
-    margin-right: 0.5em;
+/* Responsive styles */
+@media (max-width: 768px) {
+    footer {
+      padding: 10px;
+    }
+}
+
+.footer a, .sidenav a, .filter-list a{
+    cursor: default;
+    text-decoration: none;
+    color: white;
 }

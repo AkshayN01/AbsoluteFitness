@@ -1,0 +1,55 @@
+  /* Product info section styles */
+  .product-info {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .product-image {
+    flex: 0 0 45vh; /* Adjust the width of the image container */
+    margin-right: 20px;
+  }
+  
+  .product-image img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .product-details {
+    flex: 1 1 300px; /* Adjust the width of the details container */
+  }
+  
+  .product-details h2, .product-details h3 {
+    margin: 0;
+  }
+  
+  .product-details p {
+    margin-top: 10px;
+  }
+  
+/* Add to cart button styles */
+.add-to-cart {
+    background-color: var(--secondary-color);
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 0.5em;
+}
+  
+  /* Similar products section styles */
+.suggested-product-card-container {
+    overflow-x: auto; 
+}
+.carousel {
+    display: flex; /* Use Flexbox for layout */
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    gap: 20px; /* Set spacing between cards */
+}
+.similar-product-card {
+  flex: 0 0 15em; /* Set initial size of each item */
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); /* Add shadows to create the "card" effect */
+  transition: 0.3s;
+  margin:1em
+}

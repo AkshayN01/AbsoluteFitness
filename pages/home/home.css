@@ -1,0 +1,74 @@
+.content{
+    flex-grow: 1; /* Allow content to grow and fill remaining space */
+    margin-top: 9em;
+    padding: 0 1em;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+@media (min-width: 1025px) {
+    /* For larger screens, set fixed row and column sizes */
+    .grid-container {
+      grid-template-columns: repeat(5, 1fr); /* Four columns each 150px wide */
+    }
+}
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); /* Add shadows to create the "card" effect */
+    transition: 0.3s;
+    margin:1em
+}
+  
+.card-bottom {
+    padding: 2px 16px; /* Add some padding inside the card container */
+}
+
+.card-top{
+    /* background: url("https://www.fitnessequipmentireland.ie/wp-content/uploads/2022/07/BOLT-STRENGTH-PRO-SERIES-LAT-PULLDOWN-MID-ROW-247x296.jpg"); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 31vh;
+    width: 100%;
+}
+
+.discount{
+    position: relative;
+    float: right;
+    top: 4%;
+    right: 4%;
+	background: orange;
+	color: white;
+	height: 2.5rem;
+	width: 2.5rem;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 2.5rem;
+	transform: rotate(-20deg);
+    &:before,
+	&:after {
+		content:"";
+		position: absolute;
+		background: inherit;
+		height: inherit;
+		width: inherit;
+		top: 0;
+		left: 0;
+		z-index: -1;
+		transform: rotate(30deg);
+	}
+	&:after {
+		transform: rotate(60deg);
+	}
+}
+
+.discounted-price{
+    text-decoration: line-through;
+    color: dimgray;
+    margin-right: 0.5em;
+}
+
+.noResults{
+    margin-top: 20vh;
+    text-align: center;
+}

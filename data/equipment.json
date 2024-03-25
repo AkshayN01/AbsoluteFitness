@@ -1,5 +1,6 @@
 [
     {
+        "id": 1,
         "name": "Refurbished Hex Dumbbells (Individual)",
         "description": "Our Refurbished Hex Dumbbells are pre-loved products that have been sent back to us by customers.\nThey are sold in with no flaws to the functionality but may include some aesthetic damage such as rust or scratching.\nHex Dumbbells are a fantastic addition to any gym- whether it be a home gym, commercial gym or whether you just want this excellent piece of gym equipment which enables you to do a wide variety of exercises. High quality, durable hex dumbbells that can be used for a wide variety of exercises,and training can be made easier or tougher depending on the weight and number of reps.\nDumbbells,require,more balance and control during exercises compared to barbells or machines,allowing for optimisation of kinaesthetic. \n As well as being an excellent fitness tool, they are tough, durable and safe (with proper technique!).\nMaterial, solid cast material with rubber encasing with contour-gripped: ergonomic steel handles and easy to clean! These are relatively safe dumbbells with a hexagonal shape so they won't roll away when put down on an uneven surface.\n This coupled with the rubber encasing ensures maximum protection from impact damage and also noise reduction. They also facilitate controlled workouts as they are without spinning plates.\nOur dumbbells are the perfect tool to take your workout to the next level. They also provide athletes with an effective targeting tool; to work every sing.\nmuscle! Dumbbells are a must have for any gym environment,home gym and commercial alike.\nAdd the WOW factor to your gym with these great rubber Hex Dumbbells!\nOur dumbbells are extremely versatile and can be used for a variety of exercises. They also help to increase stamina and build explosive strength.\n You can also use our dumbbells for a variety of barbell exercises. They are more compact than a barbell and plates making them perfect for any space, big or small.",
         "discountPercentage": 20,
@@ -14,6 +15,7 @@
         }
     },
     {
+        "id": 2,
         "name":"Bolt Strength Round Dumbbells (Home Use)",
         "description": "These Bolt Strength Round Rubber Dumbbells are our most premium dumbbells.\nThe round style finish adds an aesthetically pleasing factor and smooth finish.High quality, durable round dumbbells that can be used for a wide variety of exercises and strength training can be made easier or tougher depending on the weight and number of reps. Dumbbells require more balance and control during exercises compared to barbells or machines allowing for optimisation of kinaesthetic performance. As well as being an excellent fitness tool, they are tough, durable and safe (with proper technique!) Material: solid cast material with rubber encasing with contour-gripped, ergonomic steel handles and easy to clean! These are relatively safe dumbbells with a round shape. This coupled with the rubber encasing ensures maximum protection from impact damage and also noise reduction. They also facilitate controlled workouts as they are without spinning plates.",
         "discountPercentage": 20,
@@ -28,6 +30,7 @@
         }
     },
     {
+        "id": 3,
         "name":"Custom Logo Round Dumbbells",
         "description": "Customization at Its Finest: At Fitness Equipment Ireland, we believe that fitness should be a reflection of your unique personality.\n That’s why we offer the freedom to customize your dumbbells with your own logo.\n Whether you’re a fitness enthusiast or a gym owner, make your mark with a personalized touch that sets you apart.\nPremium Material Choices: Our Custom Round Dumbbells are available in two high-quality materials to suit your preferences.\n Choose from stainless steel for a traditional, rugged feel, or opt for rubber for a more modern look and feel.\n Whichever you choose, you’re guaranteed durability and long-lasting performance.",
         "discountPercentage": 10,
@@ -42,6 +45,7 @@
         }
     },
     {
+        "id": 4,
         "name":"Custom Bolt Strength Bumper Plates",
         "description":"Our most premium Black Bumper Plates. The highest quality and aesthetically pleasing Bumper Plates Yet!!\nBolt Strength Bumper Plates are our most premium bumper plates and meet all of the international weightlifting federations specifications and standards.\nWith the customisable element you can put your logo on the plates and have a cohesive brand identity with every plate in your gym. It is also a great way to establish a unique identity and ensure that your facility stands out from others.\n" ,
         "discountPercentage":30,
@@ -56,6 +60,7 @@
         }
     },
     {
+        "id": 5,
         "name":"Custom Bolt Strength Coloured Bumper Plates",
         "description":"Take your strength training to the next level with our custom Bolt Strength Coloured Bumper Plates.\n Focusing on quality and precision, the coloured bumper plates allow you to target key areas through free weight exercises which can be adaptable to all levels of expertise from beginner to experienced weight trainer.\n Research indicates that free weight training is the most effective method to develop muscle strength and refine muscle definition. The rubber texture of the bumper plates ensure a smooth transition and minimizes noise and impact making them an ideal training kit for both home and commercial gym use." ,
         "discountPercentage": 20,
@@ -70,6 +75,7 @@
         }
     },
     {
+        "id": 6,
         "name":"Bolt Strength Black Plate Set (120KG)",
         "description":"20KG Bolt Strength Bumper Plates are our most premium bumper plates and also meet all of the international weightlifting federations specifications and standards.\n20KG Thickness=82mm\nThese Premium Plates are also suitable for all olympic barbells.\nStrength train with tailored weight for your individual fitness level and needs with these Bumper Plates. \nAdjust the resistance level at any time by adding and removing the plates on your bar.\n Meet your goals of defining or building muscle also. These bumper plates can be used for a variety of exercises. These include targeted arm workouts squats and crunches." ,
         "discountPercentage": 20,
@@ -84,6 +90,8 @@
         }
     },
     {
+        
+        "id": 7,
         "name":"Bolt Strength Olympic Bench Press",
         "description": "Introducing the Bolt Strength Olympic Bench Press – the epitome of commercial-grade excellence, designed for uncompromising strength training.\n Built with durability in mind, this bench is your go-to choice for gyms, studios, or the serious home enthusiast.",
         "discountPercentage": 20,
@@ -98,6 +106,7 @@
         }
     },
     {
+        "id": 8,
         "name":"Bolt Strength Multi-Functional Storage Bench",
         "description":"This utility bench is crafted with your workout needs in mind, featuring anchor loops for rope slams, durable upholstery, and comfort foam for a comfortable and reliable exercise session.It offers a variety of workout options with flat, incline, and upright positions to target different muscle groups effectively.\n Made from high-quality materials and boasting a sturdy construction, this bench ensures long-lasting durability. Easily switch between multiple workout positions with the convenient pin selector, while the four ground touch points provide stability during exercises.\n For added convenience, the bench comes with wheels and a handle for effortless transportation and storage. Cleaning is a breeze with the easy-wipe fabric, and the bench includes 12 dumbbell holders and three extra storage compartments for your workout essentials." ,
         "discountPercentage": 20,
@@ -112,6 +121,7 @@
         }
     },
     {
+        "id": 9,
         "name":"Bolt Strength Hip Thrust / Nordic Curl Bench",
         "description":"Introducing our new innovative ALL-IN-ONE Hip Thrust and Nordic Curl Bench – A versatile and comprehensive solution for your lower body workout needs. \nThis multifunctional bench combines the benefits of hip thrust and Nordic curl exercises, allowing you to target and strengthen your glutes, hamstrings, and core muscles effectively.\n The bench features a sturdy and adjustable frame that provides stability and durability during your workouts.\n It’s ergonomic design ensures optimal body alignment and proper form, reducing the risk of injury while maximising your exercise efficiency. For hip thrust exercises, this bench offers a padded bench surface.\n It provides a secure supported platform for performing hip thrust movements, promoting muscle activation and growth in your glutes and posterior chain." ,
         "discountPercentage": 20,
@@ -126,6 +136,7 @@
         }
     },
     {
+        "id": 10,
         "name":"Bolt Strength Technique Bar-5kg",
         "description":"At Fitness Equipment Ireland, we have a deep understanding of athlete development and teaching free-weight techniques. Our ultra-light 5kg Bolt Strength Technique Bar is designed for beginners in weight training and Olympic lifting.\n The bar features a 28mm diameter machine-knurled aluminum bar with steel sleeves, providing a realistic bar feel at a fraction of the weight.\nWith a length of 183cm (6ft) and an inner collar-to-collar measurement of 132cm (52 inches), matching that of a full-sized Olympic barbell, this bar fits perfectly in Power Racks, squat stands, and Olympic benches. This inclusivity enhances the user experience, especially for young lifters.\nPairing well with our technique plates, the bar has a maximum load weight of 65kg, allowing for safe progression before transitioning to a full-sized female or male barbell. The bar itself weighs 5kg.\nBolt Strength is dedicated to delivering top-notch strength and conditioning equipment. Their commitment to quality and innovation shines through in every product they offer." ,
         "discountPercentage": 20,
@@ -140,6 +151,7 @@
         }
     },
     {
+        "id": 11,
         "name":"Forza Trap Bar(1.6m Black)",
         "description":"Accelerate your weight training with the Hex Bar.\n The unique feature of the Hex Bar is its hexagon shape that allows the body to have a wider foot stance and be in a more pivotal position to be in control and minimize injury.\n It does this by allowing you to step into the bar when using it instead of behind like other bars. \nBy doing this you can drive more weight off the floor using the hips and legs and not put stress on the back.\n It is also a helpful tool for newer weightlifters as it is much less stress on the back meaning technique poor technique can be corrected without suffering injury.\n Versatility is a key feature of the Hex Bar as it can be used for a diverse range of exercises including farmer’s walk and split stance lifts.\n By design the frame creates a safe alternative to getting the benefit of a squat and a deadlift in one single movement." ,
         "discountPercentage": 20,
@@ -154,6 +166,7 @@
         }
     },
     {
+        "id": 12,
         "name":"Bolt Strength Open Trap Bar ",
         "description":"The Bolt Strength Black Oxide Open-Ended Trap Bar is a robust 25kg weightlifting tool designed for serious strength training. \nIt’s black oxide finish not only enhances its durability and resistance to rust but also lends it a sleek and professional appearance.\n The open-ended frame allows for easy entry, making it a versatile choice for exercises like deadlifts and shrugs.\n With its solid construction and secure grip, this trap bar is a reliable companion for achieving your fitness goals with confidence. " ,
         "discountPercentage": 10,
@@ -168,6 +181,7 @@
         }
     },
     {
+        "id": 13,
         "name":"Bolt Strength Black Plate Set (120KG)",
         "description": "20KG Bolt Strength Bumper Plates are our most premium bumper plates and also meet all of the international weightlifting federations specifications and standards.\n20KG Thickness=82mm\nThese Premium Plates are also suitable for all olympic barbells.\nStrength train with tailored weight for your individual fitness level and needs with these Bumper Plates. Adjust the resistance level at any time by adding and removing the plates on your bar. Meet your goals of defining or building muscle also. These bumper plates can be used for a variety of exercises. These include targeted arm workouts, squats and crunches.\nThese versatile and highly durable plates are also perfect for any home or commercial gym environment. Moreover, the sleek black finish makes this particular model the perfect fit for any home or gym decor.",
         "discountPercentage": 20,
@@ -182,6 +196,7 @@
         }
     },
     {
+        "id": 14,
         "name":"Bolt Strength Coloured Bumper | 110KG Deal",
         "description": "This Bundle Includes:\n2 x 5kg plates\n2 x 10kg plates\n2 x 15kg plates\n2 x 25kg plates\nTake your strength training to the next level with our Bolt Strength Coloured Bumper Plates. Focusing on quality and precision, the coloured bumper plates allow you to target key areas through free weight exercises which can be adaptable to all levels of expertise from beginner to experienced weight trainer. Research indicates that free weight training is the most effective method to develop muscle strength and refine muscle definition. The rubber texture of the bumper plates ensure a smooth transition and minimizes noise and impact making them an ideal training kit for both home and commercial gym use.",
         "discountPercentage": 20,
@@ -196,6 +211,7 @@
         }
     },
     {
+        "id": 15,
         "name":"Black Bumper Plate Bundle",
         "description": "Strength train with tailored weight for your individual fitness level and needs with these Black Bumper Plates. Adjust the level of endurance and change resistance levels at any time by adding and removing the plates on your bar to meet your goals of defining or building muscle. These bumper plates can be used for a variety of exercises in including targeted arm workouts, squats and crunches.\n100Kg Bundle Includes:\n5KG Black Bumper Plate x2\n10KG Black Bumper Plate x2\n15KG Black Bumper Plate x2\n20KG Black Bumper Plate x2\n150Kg Bundle Includes:\n5KG Black Bumper Plate x2\n10KG Black Bumper Plate x2\n15KG Black Bumper Plate x2\n20KG Black Bumper Plate x2\n25KG Black Bumper Plate x2\nBenefits:\nAdjustable to your individual fitness level\nDurable and Robust\nSuitable for home and commercial gym use\nNote: Please message us if the shipment is of a particularly urgent nature",
         "discountPercentage": 20,
@@ -210,6 +226,7 @@
         }
     },
     {
+        "id": 16,
         "name":"Cast Iron Kettlebells",
         "description":"Our kettlebells are powder coated to the highest standard to ensure they are smooth and easy to use. They both look great and feel great in the hands.\n A great addition to your strength and weight training routine, Cast Iron Kettlebells are a versatile piece of equipment which can be used for a diverse combination of workouts including squats, lunges, crunches and presses giving the fitness user a full body workout. By design, the ergonomic style handles ensure comfort is paramount allowing you to focus on your repetitions to achieve your weight training goals. The portability of the Kettlebells is a key feature that appeals to fitness users as the Kettlebells can easily be moved and stored out of sight when the workout is complete making them ideal for home and gym use.",
         "discountPercentage": 80,
@@ -224,6 +241,7 @@
         }
     },
     {
+        "id": 17,
         "name":"Bolt Adjustable Kettlebell (18kg)",
         "description":"The Bolt adjustable kettlebell is the perfect option if you are short on space but want to use a wide range of kettlebells with different weights. Simply add or subtract weights from the kettlebell with ease to adjust to your liking.\nWith the advanced design to ensure that the kettlebell transitions smoothly between weights and does not get jammed, you’ll never feel frustrated when using this product.\nThis kettlebell is suitable for anyone in the home who wants to do a kettlebell workout. Kettlebells are an incredibly versatile tool that can be used to train strength, endurance, flexibility and balance. They are usable in a wide variety of exercises to stimulate many different muscle groups throughout the body.\n Kettlebells have become very popular in recent years due to their great versatility of use and simplicity. This single bell will help give you the benefits of an entire set with it’s easy to change weight and compact design. This bell is a great purchase for anyone looking to adopt a kettlebell into their workout routine!" ,
         "discountPercentage": 25,
@@ -238,6 +256,7 @@
         }
     },
     {
+        "id": 18,
         "name":"Competition Kettlebells",
         "description":"This range of high grade durable steel competition kettlebells are perfect for all fitness and skill levels. By design, these kettlebells are the same size, regardless of weight and have a smooth finish. Therefore this allows you to use them as often as you want, without wear and tear on the hands.\nOur kettlebells are also colour coded – to facilitate a seamless transition between exercises. The versatility of the kettlebell as an exercise tool is a unique feature. Our Competition Kettlebells are the perfect product for targeting biceps, triceps and glutes as well as abs. Moreover, the various weight increments of these kettlebells allow you to start off small and increase resistance." ,
         "discountPercentage": 20,

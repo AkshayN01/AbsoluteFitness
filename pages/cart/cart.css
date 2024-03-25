@@ -1,0 +1,44 @@
+.product-name{
+    margin-left: 1em;
+}
+.input-group{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 400px; /* Adjust maximum width as needed */
+    margin: 0 auto; /* Center container horizontally */
+    padding: 1em;
+    /* border: 1px solid #ccc; */
+}
+
+/* Quantity container styles */
+.quantity-container {
+    display: flex;
+    align-items: center;
+}
+
+/* Increment and decrement button styles */
+.quantity-btn {
+    display: inline-block;
+    width: 2em;
+    height: 4vh;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1em;
+    text-align: center;
+    cursor: pointer;
+}
+
+.quantity-display{
+    width: 5em;
+    text-align: center;
+}
+
+/* Total price display styles */
+.total-price {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+

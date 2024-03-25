@@ -4,6 +4,10 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link href="./css/main.css" rel="stylesheet">
+        <link href="./css/header.css" rel="stylesheet">
+        <link href="./pages/home/home.css" rel="stylesheet">
+        <link href="./pages/productInfo/productInfo.css" rel="stylesheet">
+        <link href="./pages/cart/cart.css" rel="stylesheet">
         <title>Absolute Health</title>
     </head>
     <body>
@@ -11,37 +15,59 @@
         <section class="header">
             <div class="primary">
                 <div class="wrapper">
-                    <div class="logo"></div>
-                    <div class="brandName">Absolute Health</div>
+                    <a href="/" class="logo" data-clickSource="logo"></a>
+                    <a href="/" class="brandName" data-clickSource="brandname">Absolute Health</a>
                     <div class="searchbar">
-                        <input type="text" placeholder="Search.." name="search">
-                        <button type="submit"><i class="fa fa-search"></i></button>
+                        <input type="text" placeholder="Search.." id="searchbar">
+                        <a href="/" data-clickSource="searchbar"><button type="submit" data-clickSource="searchbar"><i data-clickSource="searchbar" class="fa fa-search"></i></button></a>
                     </div>
-                    <a class="login" href="/login">
-                        <i class="fa fa-user" style="font-size:1em"></i>
-                        <span>Login</span>
+                    <a href="/login" data-clickSource="login" class="login">
+                        <i data-clickSource="login" class="fa fa-user" style="font-size:1em"></i>
+                        <span data-clickSource="login">Login</span>
                     </a>
-                    <div class="cart">
-                        <i class="fa fa-shopping-cart" style="font-size:1em"></i>
-                        <span>Cart</span>
-                    </div>
+                    <a href="/cart" data-clickSource="cart" class="cart">
+                        <i class="fa fa-shopping-cart" style="font-size:1em" data-clickSource="cart"></i>
+                        <span data-clickSource="cart">Cart</span>
+                    </a>
                 </div>
             </div>
+            <div class="secondary">
+                <ul class="filter-list">
+                    <li><a>Shop by Category</a></li>
+                    <li><a href="#">Free Weights</a></li>
+                  </ul>
+                <button class="hamburger-menu" onclick="openNav()">&#9776;</button>
+            </div>
         </section>
-
+        
+        <!-- Side Navbar -->
+        <div class="sidenav" id="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a>Shop by Category</a>
+            <a href="#">Free Weights</a>
+        </div>
+          
         <!-- MAIN CONTENT -->
         <section class="content" id="root">
-            <div class="contentWrapper" id="equipementList">
-            </div>
-            
         </section>
 
         <!-- FOOTER -->
-        <section class="footer">Footer</section>
+        <section class="footer">
+            <div>
+                <a href="#">Home</a>
+                <a href="#">About</a>
+                <a href="#">Contact Us</a>
+                <a href="#">Company Info</a>
+              </div>
+              <p>&copy; 2024 Absolute Fitness. All rights reserved.</p>
+        </section>
+
         <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
-        <!-- <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js" integrity="sha256-Lsk+CDPOzTapLoAzWW0G/WeQeViS3FMzywpzPZV8SXk=" crossorigin="anonymous"></script> -->
         <script src="https://kit.fontawesome.com/fa7b9cb286.js" crossorigin="anonymous"></script>
         <script src="./scripts/main.js"></script>
-        <!-- <script src="./scripts/route.js"></script> -->
+        <script src="./scripts/route.js"></script>
+        <script src="./pages/home/home.js"></script>
+        <script src="./pages/productInfo/productInfo.js"></script>
+        <script src="./pages/cart/cart.js"></script>
     </body>
 </html>
